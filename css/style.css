@@ -1,0 +1,85 @@
+body {
+	background: #282828;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 9px;
+	color:white;
+	text-decoration: none;
+	}
+
+.wrapper {
+	background: url("../img/background.jpg") repeat-y;
+	margin: 0 auto; 
+	width:820px;
+	min-height: 883px;
+	border:1px dotted #282828;
+	box-shadow: 0px 0px 1px 0px #adaaad;
+	padding: 50px 70px 10px 70px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*------Хедер-----*/
+
+.logo{
+	float:left;
+	width: 400px;
+}
+.contacts{
+	float:right;
+	width: 100px;
+	padding-top: 100px;
+}
+
+.contacts:first-line {
+	font-size: 10px;
+}
+/*----меню со странами---*/
+
+.content li{
+    float: left; 
+    margin:5px;
+    margin-bottom: 40px;
+}
+
+.content li a {
+    display: block;
+    text-align: center;
+    padding-top: 185px;
+    text-decoration: none;
+   	font-size: 15px;
+   	color:white;
+   	font-weight: bold;
+    background-position: center top;
+    width: 260px; 
+}
+
+.content .india a {
+    background: url("../img/india.jpg") no-repeat;
+}
+.content .nepal a {
+    background: url("../img/nepal.jpg") no-repeat;
+}
+.content .sri_lanka a {
+    background: url("../img/sri_lanka.jpg") no-repeat;
+}
+.content .maldives a {
+    background: url("../img/maldives.jpg") no-repeat;
+}
+.content .tibet a {
+    background: url("../img/tibet.jpg") no-repeat;
+}
+.content .butan a {
+    background: url("../img/bhutan.jpg") no-repeat;
+}
+
+/*------Футер-----*/
+ .footer{
+ 	padding-top: 150px;
+ 	text-align: center;
+ 	font-size: 10px;
+ }
