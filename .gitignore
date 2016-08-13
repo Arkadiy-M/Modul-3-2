@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="header clearfix">
+			<div class="logo">
+			<a href="#"><img src="img/logo.png" alt="travel"></a>
+			</div>
+		<div class="contacts">
+		Contact Us
+		<p>+12 34 567 8910</p>
+		<p>info@asia-holidays.com</p>
+		</div>
+		</div>
+
+		<div class="content clearfix">
+		<ul>
+		<li class="india"><a href="#">India</a></li>
+		<li class="nepal"><a href="#">Nepal</a></li>
+		<li class="tibet"><a href="#">Tibet</a></li>
+		<li class="butan"><a href="#">Bhutan</a></li>
+		<li class="sri_lanka"><a href="#">Sri Lanka</a></li>
+		<li class="maldives"><a href="#">Maldives</a></li>
+		</ul>
+		</div>	
+		
+		<div class="footer">
+		Copyright (c) asia-holidays.com. 2010
+		</div>
+	</div>
+</body>
+</html>
